@@ -69,6 +69,8 @@ according to the pattern specified in this property. The following variables are
   * ```${hash}```: the first 8 digits of the md5 of the file.
   * ```${name}```: the original name of the file.
   * ```${ext}```: the original extension of the file.
+  ```matchFormat```: Optional custom format for the file references to find and replace in ```dest``` files.
+  ```replaceFormat```: Optional custom format for replacement of file references in ```dest``` files.
 * ```renameFiles```: Rename the files or leave them in place and only alter the references to them in ```out```. Defaults to ```true```
 
 ## Status

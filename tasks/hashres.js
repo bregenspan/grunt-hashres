@@ -30,6 +30,8 @@ module.exports = function(grunt) {
       dest          : options.dest,
       encoding      : options.encoding,
       fileNameFormat: options.fileNameFormat,
+      matchFormat   : options.matchFormat,
+      replaceFormat : options.replaceFormat,
       renameFiles   : options.renameFiles
     });
   });
